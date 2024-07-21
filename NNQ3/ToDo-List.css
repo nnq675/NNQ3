@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+li {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    justify-content: space-between;
+}
+.add-task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-task label,
+.add-task input,
+.add-task select,
+.add-task button {
+    margin-right: 10px;
+}
